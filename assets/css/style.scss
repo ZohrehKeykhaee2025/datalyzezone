@@ -1,14 +1,6 @@
 ---
 ---
 
-@import "main";
-@import "fontawesome-all.min";
-@import "noscript";
-
----
----
-
-/* فایل‌های CSS معمولی نمی‌تونن @import بشن در SCSS.
-   پس می‌تونی این فایل خالی بذاری یا فقط بنویسی: */
-
-@import "jekyll-theme-primer";  // اگه از تم primer استفاده می‌کنی
+body {
+  background: #fff;
+}
